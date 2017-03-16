@@ -57,7 +57,7 @@ module.exports =
       _.each object, (value, key) =>
         if _.values(value)?[0] == '@'
           identifier = value.substring 1
-          referencedObject = @getRandomMatchingObject '^'+identifier+'$'
+          referencedObject = @getRandomMatchingObject "^${identifier}$"
 
           if referencedObject?[idKey]
             object[key] = referencedObject[idKey]

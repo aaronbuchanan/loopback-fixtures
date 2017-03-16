@@ -43,6 +43,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sghribi/loopback-fixtures.git"
+    "url": "git@github.com:aaronbuchanan/loopback-fixtures.git"
   }
 }
